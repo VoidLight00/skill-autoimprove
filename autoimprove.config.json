@@ -1,0 +1,12 @@
+{
+  "skills_base_dir": "~/.openclaw/skills",
+  "max_iterations": 20,
+  "timeout_seconds": 3600,
+  "llm_command": "claude -p",
+  "git_auto_commit": true,
+  "log_dir": "~/.openclaw/skills/skill-autoimprove/logs",
+  "eval_subdir": "eval",
+  "eval_filename": "eval.json",
+  "assertions_per_test": 5,
+  "total_tests_target": 5
+}

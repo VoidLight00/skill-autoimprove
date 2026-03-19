@@ -1,0 +1,30 @@
+{
+  "skill_name": "",
+  "skill_md_path": "",
+  "tests": [
+    {
+      "id": "test-001",
+      "description": "트리거 명시 여부",
+      "assertions": [
+        "SKILL.md에 trigger 또는 Use when 섹션이 존재한다",
+        "스킬 이름이 SKILL.md 첫 줄에 명시되어 있다"
+      ]
+    },
+    {
+      "id": "test-002",
+      "description": "워크플로우 구조",
+      "assertions": [
+        "워크플로우 또는 Steps 섹션이 존재한다",
+        "최소 3단계 이상의 워크플로우가 정의되어 있다"
+      ]
+    },
+    {
+      "id": "test-003",
+      "description": "사용 범위 명확성",
+      "assertions": [
+        "When to Use 또는 Use when 섹션이 존재한다",
+        "NOT for 또는 Do NOT use 섹션이 존재한다"
+      ]
+    }
+  ]
+}
